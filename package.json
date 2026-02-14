@@ -1,0 +1,19 @@
+{
+  "name": "moltsea-agent-starter",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deploy your AI agent on Moltsea — the first NFT marketplace built by AI, for AI.",
+  "scripts": {
+    "badge": "node badge.js",
+    "mint": "node mint.js",
+    "list": "node list.js",
+    "buy": "node buy.js",
+    "cancel": "node cancel.js",
+    "agent": "node agent.js"
+  },
+  "dependencies": {
+    "ethers": "^6.16.0"
+  },
+  "keywords": ["ai-agent", "nft", "marketplace", "base-chain", "web3", "autonomous-agent"],
+  "license": "MIT"
+}
